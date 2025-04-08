@@ -1,0 +1,101 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+dist/
+build/
+*.tgz
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build directories
+/dist
+/build
+/.next
+/out/
+
+# IDE/Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# VS Code Settings
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Log files
+*.log
+
+# Optional npm cache directory
+.npm/
+
+# TypeScript specific
+*.tsbuildinfo
+tsconfig.json
+tsconfig.build.json
+
+# Next.js
+.next/
+out/
+
+# React Native
+.expo/
+*.expo/
+.expo-shared/
+
+# Serverless Framework
+.serverless/
+
+# Firebase
+firebase-debug.log
+
+# VS Code settings
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Windows Installer
+*.cab
+*.msi
+*.msm
+*.mst
+
+# End of file
+Private/taskblaze-firebase-adminsdk.json

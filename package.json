@@ -1,0 +1,31 @@
+{
+  "name": "taskblaze",
+  "version": "1.0.0",
+  "description": "Taskblaze Server is the robust backend infrastructure powering the Taskblaze productivity platform. Built with Node.js and Express, it handles secure user authentication, task management, real-time updates, and AI-powered assistance through RESTful APIs. Designed for scalability and performance, the server integrates with MongoDB for dynamic data storage and supports seamless client communication. Whether it's task creation, assignment, or smart automation, Taskblaze Server ensures smooth operation and responsiveness across the entire Taskblaze ecosystem.",
+  "keywords": [
+    "reza"
+  ],
+  "license": "ISC",
+  "author": "Md Arif Ahammed Reza",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.2.0",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.2",
+    "mongose": "^0.0.2-security",
+    "multer": "^1.4.5-lts.2",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
