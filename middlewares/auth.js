@@ -17,6 +17,7 @@ const authMiddleware = async (req, res, next) => {
         email: decoded.email,
         avatar: decoded.picture || null
       });
+      console.log(`New user created: ${decoded.email,user}`);
     }
 
     req.user = user;
