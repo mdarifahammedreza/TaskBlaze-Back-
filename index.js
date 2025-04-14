@@ -26,7 +26,7 @@ app.use(express.json());
 app.use('/api', userRoutes);
 app.use('/api', chatRoutes);
 app.use('/api', activityRoutes);
-app.use('/api', taskRoutes);
+app.use('/api/tasks', taskRoutes);
 app.use('/api', conversationRoutes);
 
 app.get('/', statusRoute);
